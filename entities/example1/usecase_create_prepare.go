@@ -13,3 +13,5 @@ func prepareCreate(request RequestCreateExample1) Example1Model {
 }
 
 // todo : implementar modo de poder escolher o repositorio que vai salvar
+// prepare receber o repoinuse
+
