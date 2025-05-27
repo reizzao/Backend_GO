@@ -10,4 +10,3 @@ type RequestCreateExample1 struct {
 	SobreNome string
 }
 
-//renomear arquivo para model.go
