@@ -16,4 +16,4 @@ var optionsRepoinuseExample2 = Example2OptionsRepoinuse{
 }
 
 // editable repoinuse # important
-var EditRepoinuseExample2 = optionsRepoinuseExample2.Memory
+var EditRepoinuseExample2 types.RepositoryExample2 = optionsRepoinuseExample2.Memory

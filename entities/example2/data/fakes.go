@@ -3,6 +3,6 @@ package data
 import types "github.com/reizzao/backendgo/entities/example2/type"
 
 var FakeRequestCreateExample2 = types.RequestCreateExample2{
-	Nome:      "fakeNomeDois",
-	SobreNome: "fakeSobreNomeDois",
+	Nome:      "fakeNomeDois 22",
+	SobreNome: "fakeSobreNomeDois 22",
 }
