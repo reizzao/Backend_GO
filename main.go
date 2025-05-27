@@ -3,10 +3,13 @@ package main
 import (
 	"fmt"
 
-	"github.com/reizzao/backendgo/entities/example1/usecases/create"
+	tt_create_example1 "github.com/reizzao/backendgo/entities/example1/usecases/create"
+	tt_create_example2 "github.com/reizzao/backendgo/entities/example2/usecases/create"
 )
 
 func main() {
 	fmt.Println("Hello Main!")
-	create.TesterCreate()
+
+	tt_create_example1.TesterCreate()
+	tt_create_example2.TesterCreate()
 }
