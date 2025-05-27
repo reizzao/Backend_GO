@@ -1,4 +1,4 @@
-package example1
+package types
 
 type Example1Model struct {
 	ID      string
