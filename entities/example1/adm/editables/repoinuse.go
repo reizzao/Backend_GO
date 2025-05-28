@@ -1,8 +1,8 @@
-package edit
+package editables
 
 import (
 	"github.com/reizzao/backendgo/entities/example1/repositories"
-	types "github.com/reizzao/backendgo/entities/example1/type"
+	types "github.com/reizzao/backendgo/entities/example1/types"
 )
 
 type Example1OptionsRepoinuse struct {
@@ -16,4 +16,4 @@ var optionsRepoinuseExample1 = Example1OptionsRepoinuse{
 }
 
 // editable repoinuse # important
-var EditRepoinuseExample1 types.RepositoryExample1 = optionsRepoinuseExample1.Memory
+var RepoinuseExample1 types.RepositoryExample1 = optionsRepoinuseExample1.Memory
