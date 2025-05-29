@@ -10,4 +10,10 @@ func main() {
 	fmt.Println("Hello Main!")
 
 	tt_create_example1.TesterCreate()
+
+	nome := "João"
+	// msg := "Mostre o valor de %v", nome
+	msg := fmt.Sprintf("Mostre o valor de %v", nome)
+	fmt.Println(msg)
+
 }
